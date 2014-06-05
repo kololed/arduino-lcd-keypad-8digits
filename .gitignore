@@ -21,3 +21,7 @@
 *.i*86
 *.x86_64
 *.hex
+/arduino-lcd-keypad-8digits.d
+/arduino-lcd-keypad-8digits_flymake.d
+/build-uno/
+/debug.txt
