@@ -1,13 +1,33 @@
+//    A small demo program for LCD/Keypad shield
+//    where the user can edit a decimal value (up to 8 digits)
+//    
+// 
+//     Copyright (C) {2014}  {Ronan Barzic}
+//
+//    This program is free software; you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation; either version 2 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License along
+//    with this program; if not, write to the Free Software Foundation, Inc.,
+//    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+// This code is based on the following code :
+// http://www.dfrobot.com/wiki/index.php?title=Arduino_LCD_KeyPad_Shield_(SKU:_DFR0009)#Example_use_of_LiquidCrystal_library
+// Licence : unknown
+
+
+
+
 #include <LiquidCrystal.h>
 
-/*******************************************************
-
-A small demo program for LCD/Keypad shield
-where the user can edit a decimal value (up to 8 digits)
-Ronan BARZIC, June 2014
-From http://www.dfrobot.com/wiki/index.php?title=Arduino_LCD_KeyPad_Shield_(SKU:_DFR0009)#Example_use_of_LiquidCrystal_library
-
-********************************************************/
 
 // DFRobot compatible shield
 LiquidCrystal lcd(8,9,4,5,6,7);
